@@ -1,0 +1,124 @@
+ body {
+     background-color: hsl(0, 0%, 95%);
+     place-content: center;
+     display: flex;
+     min-height: 95vh;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ @media screen and(max-width: 375px) {
+     .main {
+         max-width: 350px;
+         height: 200px;
+     }
+ }
+ 
+ @media screen and (min-width: 375px) {
+     .main {
+         max-width: 900px;
+         height: 400px;
+         display: flex;
+     }
+ }
+ 
+ .container1 {
+     background-color: hsl(31, 77%, 52%);
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+ 
+ .container2 {
+     background-color: hsl(184, 100%, 22%);
+ }
+ 
+ .container3 {
+     background-color: hsl(179, 100%, 13%);
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+ 
+ img {
+     padding: 30px 0px 15px 30px;
+     display: block;
+ }
+ 
+ h2 {
+     color: hsl(0, 0%, 95%);
+     font-size: 20px;
+     font-family: 'Big Shoulders Display', cursive;
+     font-weight: 700;
+     padding: 0px 0px 10px 30px;
+     text-transform: uppercase;
+ }
+ 
+ p {
+     color: hsla(0, 0%, 100%, 0.75);
+     font-size: 15px;
+     font-family: 'Lexend Deca', sans-serif;
+     font-weight: 400;
+     margin-right: 65px;
+     padding: 0px 0px 10px 30px;
+ }
+ 
+ .btn1 {
+     background-color: hsl(0, 0%, 95%);
+     color: hsl(31, 77%, 52%);
+     font-family: 'Big Shoulders Display', cursive;
+     margin: 40px 0px 10px 30px;
+     padding: 10px 30px 10px 30px;
+     border-radius: 50px;
+     border: none;
+ }
+ 
+ .btn2 {
+     background-color: hsl(0, 0%, 95%);
+     color: hsl(184, 100%, 22%);
+     font-family: 'Big Shoulders Display', cursive;
+     margin: 40px 0px 10px 30px;
+     padding: 10px 30px 10px 30px;
+     border-radius: 50px;
+     border: none;
+ }
+ 
+ .btn3 {
+     background-color: hsl(0, 0%, 95%);
+     color: hsl(179, 100%, 13%);
+     font-family: 'Big Shoulders Display', cursive;
+     margin: 40px 0px 10px 30px;
+     padding: 10px 30px 10px 30px;
+     border-radius: 50px;
+     border: none;
+ }
+ 
+ .btn1:hover {
+     background-color: transparent;
+     color: hsl(0, 0%, 95%);
+     border: solid 2px hsl(0, 0%, 95%);
+     cursor: pointer;
+ }
+ 
+ .btn2:hover {
+     background-color: transparent;
+     color: hsl(0, 0%, 95%);
+     border: solid 2px hsl(0, 0%, 95%);
+     cursor: pointer;
+ }
+ 
+ .btn3:hover {
+     background-color: transparent;
+     color: hsl(0, 0%, 95%);
+     border: solid 2px hsl(0, 0%, 95%);
+     cursor: pointer;
+ }
+ 
+ .attribution {
+     font-family: 'Big Shoulders Display', cursive;
+     font-size: 11px;
+     text-align: center;
+ }
+ 
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+ }
